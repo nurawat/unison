@@ -2,6 +2,8 @@
 
 The `unison script` will help with synchronize the folders in multiple DC/Server, This script can be used for multiple directories as well.
 
+This script will make sure no two nodes/servers in the same DC or same namespaces are not copying the code simultaneously(executing rsync when the other node is already doing it). Each executing server creates a lock which is read in a common space and delays/skip the entire execution. for the other node.
+
 ## Getting Started
 This guide is for `unison script` version 1.0.0
 
