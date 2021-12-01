@@ -1,0 +1,3 @@
+DC1=myserver.example.com,myserver2.example.com
+DC2=myserver3.example.com
+DC3=myserver4.example.com
