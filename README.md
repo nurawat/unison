@@ -51,9 +51,9 @@ Usage Guide:
       Unison Lock Folder Path e.g. /nfs_share
       Server List - File which will have Entry for the DC
         server.txt -
-            dc1=dc1_servers1.fairisaac.com,dc1_servers2.fairisaac.com
-            dc2=dc2_servers1.fairisaac.com,dc2_servers2.fairisaac.com
-            dc3=dc3_servers1.fairisaac.com,dc3_servers2.fairisaac.com
+            dc1=dc1_servers1.<domain>.com,dc1_servers2.<domain>.com
+            dc2=dc2_servers1.<domain>.com,dc2_servers2.<domain>.com
+            dc3=dc3_servers1.<domain>.com,dc3_servers2.<domain>.com
 
     Update the Directory_Paths variable with the list of directories to Sync
     directory_paths="/some/folder/path/
